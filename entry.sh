@@ -15,5 +15,5 @@ echo "Sui address configured successfully."
 
 walrus-cli info
 
-walrus-cli daemon -b "0.0.0.0:80" 
+walrus-cli daemon -b "0.0.0.0:8080" 
 
