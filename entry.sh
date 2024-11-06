@@ -13,6 +13,7 @@ sui client switch --address=viv3
 
 echo "Sui address configured successfully."
 
-walrus-cli --config /usr/bin/walrus/client_config.yaml info
+walrus-cli info
 
-/bin/bash
+walrus-cli daemon -b "0.0.0.0:80" 
+
